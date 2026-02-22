@@ -17,7 +17,7 @@ import base64
 st.set_page_config(
     page_title="EML to PDF Converter",
     page_icon="📧",
-    layout="centered"
+    layout="centered",
      menu_items={
         'Get Help': 'https://github.com/Gattupalli-Saketh/eml-to-pdf-streamlit',  
         'Report a bug': 'https://github.com/Gattupalli-Saketh/eml-to-pdf-streamlit/issues',
