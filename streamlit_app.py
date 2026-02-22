@@ -18,7 +18,30 @@ st.set_page_config(
     page_title="EML to PDF Converter",
     page_icon="📧",
     layout="centered"
+     menu_items={
+        'Get Help': 'https://github.com/Gattupalli-Saketh/eml-to-pdf-streamlit',  
+        'Report a bug': 'https://github.com/Gattupalli-Saketh/eml-to-pdf-streamlit/issues',
+        'About': "Free browser-based tool to convert EML files to PDF. No sign-up, no data stored. Batch support."
+    }
 )
+#Meta tags for SEO and social sharing
+st.markdown("""
+    <meta name="description" content="Free online EML to PDF converter. Convert .eml email files to clean PDF documents securely in your browser. Batch upload supported – no registration, no server storage, instant download.">
+    <meta name="keywords" content="eml to pdf, eml converter, email to pdf converter, convert eml to pdf online, free eml to pdf, eml file to pdf, batch eml converter, streamlit eml tool">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="EML to PDF Converter – Free & Secure Online Tool">
+    <meta property="og:description" content="Instantly convert .eml email files to PDF. Private, browser-only processing. Multiple files at once. No installation required.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://eml2pdf-gvs.streamlit.app/">
+    <meta property="og:image" content="https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png"> <!-- replace with real screenshot if you have one -->
+
+    <!-- Twitter / X Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Free Online EML to PDF Converter">
+    <meta name="twitter:description" content="Convert email (.eml) files to PDF – secure, fast, supports batch conversion.">
+""", unsafe_allow_html=True)
 
 # Custom CSS
 st.markdown("""
