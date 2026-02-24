@@ -77,7 +77,7 @@ https://eml2pdf-gvs.streamlit.app/
 
 Each generated PDF contains:
 
-* 📌 Email Header
+* 📌 Email Headers
 * 📝 Subject
 * 👤 From
 * 📩 To
